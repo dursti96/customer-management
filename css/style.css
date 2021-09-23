@@ -1,0 +1,108 @@
+ul{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    font-size: 150%;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    color: rgb(6, 57, 124);
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.signupmsg{
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginmsg{
+    font-size: 200%;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile{
+    font-size: 150%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#customers{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#customers>tr{
+    font-family: 'Roboto', sans-serif;
+}
+
+.customers>td{
+    border-bottom: 1px solid black;
+    font-size: 150%;
+    padding: 0.5vw 1vw;
+}
+
+#headline{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.edit>form{
+    display:  flex;
+}
+
+input, button{
+    width: 20%;
+}
+
+body{
+    background-image: url("background-blue.jpg");
+    background-size: auto;
+}
+
+td, h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
